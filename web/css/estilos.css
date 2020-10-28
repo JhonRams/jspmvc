@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25/10/2020, 12:06:48 PM
+    Author     : JR
+*/
+
+.cuadro{
+    padding: 5%;
+    margin-bottom: 0.5em;
+    border-radius: 2px;
+}
+.aliniacion{
+    
+}
+.ventana{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(10,10,10,0.9);
+    z-index: 100;
+    overflow: auto;
+}
+.ventana>div{
+        margin: 0 auto;
+    width: 80%;
+}
+.ventana>a,.ventana>a:hover{
+float: right;
+padding: 1em;
+color: white;
+cursor: pointer;
+}
+.bus-sit{
+    margin: 0 auto;
+    border: 2px solid #b75ed5;
+}
+.bus-sit>div{
+    display: inline-block;
+    width: 8%;
+}
+.bus-sit>div>div{
+    margin: 1px!important;
+    text-align: center;
+    background: #b75ed5;
+    color: white;
+}
+.datos-pas{
+    margin: 0 auto;
+    width: 50%;
+}
+.boleta{
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.imprime{
+    text-align: center;
+}
